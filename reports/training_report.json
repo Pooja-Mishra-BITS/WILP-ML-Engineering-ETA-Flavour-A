@@ -1,0 +1,78 @@
+{
+  "validation": {
+    "accepted": 600,
+    "rejected": 3,
+    "reject_reasons": [
+      [
+        "invalid_pickup_lat"
+      ],
+      [
+        "invalid_timestamp"
+      ],
+      [
+        "invalid_distance"
+      ]
+    ]
+  },
+  "dataset_version": "dataset-a-v1.0.0",
+  "train_size": 480,
+  "test_size": 120,
+  "duplicate_trip_feature_overlap_count": 0,
+  "runs": [
+    {
+      "model": "linear_regression",
+      "mae": 3.849171433585846,
+      "rmse": 4.82314423101893,
+      "r2": 0.9383437633453546,
+      "train_size": 480,
+      "test_size": 120,
+      "seed": 412,
+      "hyperparameters": {
+        "fit_intercept": true
+      },
+      "features": [
+        "pickup_lat",
+        "pickup_lon",
+        "dropoff_lat",
+        "dropoff_lon",
+        "trip_distance_km",
+        "hour",
+        "weekday",
+        "weather",
+        "traffic_level"
+      ],
+      "dataset_version": "dataset-a-v1.0.0",
+      "mlflow_run_id": "1df3438d20f745fbac9f39a4da5c6207"
+    },
+    {
+      "model": "gradient_boosting",
+      "mae": 3.6173310405338146,
+      "rmse": 4.461459313198002,
+      "r2": 0.9472441787672684,
+      "train_size": 480,
+      "test_size": 120,
+      "seed": 412,
+      "hyperparameters": {
+        "n_estimators": 100,
+        "max_depth": 3,
+        "learning_rate": 0.05
+      },
+      "features": [
+        "pickup_lat",
+        "pickup_lon",
+        "dropoff_lat",
+        "dropoff_lon",
+        "trip_distance_km",
+        "hour",
+        "weekday",
+        "weather",
+        "traffic_level"
+      ],
+      "dataset_version": "dataset-a-v1.0.0",
+      "mlflow_run_id": "e3c725fcac2f45a3ab152416b4c28cef"
+    }
+  ],
+  "selected_model": "gradient_boosting",
+  "artifact": "artifacts/model.joblib",
+  "mlflow_tracking_uri": "mlruns/"
+}

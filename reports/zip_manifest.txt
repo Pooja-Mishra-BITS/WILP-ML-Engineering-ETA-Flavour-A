@@ -1,0 +1,36 @@
+ZIP ROOT: ml-engineering-mini-project/
+
+INCLUDE:
+README.md
+requirements.txt
+params.yaml
+Dockerfile
+.dockerignore
+.gitignore
+api/
+pipeline/
+data/VERSION
+data/manifest.json
+data/raw/trips.csv
+data/processed/trips_clean.csv
+data/processed/rejected_rows.jsonl
+data/simulated/drift_trips.csv
+artifacts/model.joblib
+experiments/runs.jsonl
+experiments/selected_model.joblib
+logs/feedback.schema.json
+reports/
+submission/
+tests/
+
+EXCLUDE:
+.git/
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+.env
+mlruns/
+experiments/artifacts/
+logs/*.jsonl
+temporary files, secrets, parent-directory files, and unrelated projects

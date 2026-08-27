@@ -1,0 +1,12 @@
+seed: 412
+test_size: 0.2
+feature:
+  representation: scaled numeric plus one-hot categorical
+  numeric: [pickup_lat, pickup_lon, dropoff_lat, dropoff_lon, trip_distance_km, hour, weekday]
+  categorical: [weather, traffic_level]
+models:
+  logistic_regression:
+    C: 2.0
+    max_iter: 1000
+  multinomial_nb:
+    alpha: 0.1
