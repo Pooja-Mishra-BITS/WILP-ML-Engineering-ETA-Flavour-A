@@ -1,0 +1,1374 @@
+{
+  "matched_pairs": 150,
+  "overall": {
+    "n": 150,
+    "mae": 3.3761,
+    "rmse": 4.3511
+  },
+  "first_half_older": {
+    "n": 75,
+    "mae": 3.0919,
+    "rmse": 3.923
+  },
+  "second_half_newer": {
+    "n": 75,
+    "mae": 3.6604,
+    "rmse": 4.7406
+  },
+  "rmse_delta_first_vs_second": 0.8176,
+  "rmse_threshold": 8.0,
+  "accuracy_drift_triggered": false,
+  "action": "continue monitoring",
+  "rows": [
+    {
+      "request_id": "0f630a0b-ba35-4de3-a05d-6dbc513b8c2c",
+      "timestamp_utc": "2026-08-31T14:02:35.384707+00:00",
+      "model_version": "eta-gradient_boosting-v1",
+      "predicted_eta_minutes": 83.81,
+      "actual_eta_minutes": 91.44,
+      "error": 7.63,
+      "abs_error": 7.63
+    },
+    {
+      "request_id": "a495bb35-2219-4b0e-a106-fcc1b09b005f",
+      "timestamp_utc": "2026-08-31T14:02:35.448036+00:00",
+      "model_version": "eta-gradient_boosting-v1",
+      "predicted_eta_minutes": 42.19,
+      "actual_eta_minutes": 39.11,
+      "error": -3.08,
+      "abs_error": 3.08
+    },
+    {
+      "request_id": "9399425c-abef-48e0-810b-4b696fbb75ca",
+      "timestamp_utc": "2026-08-31T14:02:35.518480+00:00",
+      "model_version": "eta-gradient_boosting-v1",
+      "predicted_eta_minutes": 65.12,
+      "actual_eta_minutes": 58.0,
+      "error": -7.12,
+      "abs_error": 7.12
+    },
+    {
+      "request_id": "dee47e3a-879b-468b-91cf-90bd996950e7",
+      "timestamp_utc": "2026-08-31T14:02:35.583143+00:00",
+      "model_version": "eta-gradient_boosting-v1",
+      "predicted_eta_minutes": 33.84,
+      "actual_eta_minutes": 33.56,
+      "error": -0.28,
+      "abs_error": 0.28
+    },
+    {
+      "request_id": "38029a97-d233-464f-bb23-bdd5d8882e55",
+      "timestamp_utc": "2026-08-31T14:02:35.646783+00:00",
+      "model_version": "eta-gradient_boosting-v1",
+      "predicted_eta_minutes": 46.32,
+      "actual_eta_minutes": 47.05,
+      "error": 0.73,
+      "abs_error": 0.73
+    },
+    {
+      "request_id": "3c0e362b-a147-4a33-b481-186fd22626d8",
+      "timestamp_utc": "2026-08-31T14:02:35.708036+00:00",
+      "model_version": "eta-gradient_boosting-v1",
+      "predicted_eta_minutes": 59.76,
+      "actual_eta_minutes": 57.89,
+      "error": -1.87,
+      "abs_error": 1.87
+    },
+    {
+      "request_id": "84dafeb7-9cc3-4d71-9a68-1a6c4b96f62e",
+      "timestamp_utc": "2026-08-31T14:02:35.770426+00:00",
+      "model_version": "eta-gradient_boosting-v1",
+      "predicted_eta_minutes": 33.21,
+      "actual_eta_minutes": 31.18,
+      "error": -2.03,
+      "abs_error": 2.03
+    },
+    {
+      "request_id": "bad61e7d-c6d7-407e-8a10-4ef6fef4ef0e",
+      "timestamp_utc": "2026-08-31T14:02:35.832447+00:00",
+      "model_version": "eta-gradient_boosting-v1",
+      "predicted_eta_minutes": 53.81,
+      "actual_eta_minutes": 50.86,
+      "error": -2.95,
+      "abs_error": 2.95
+    },
+    {
+      "request_id": "4ff9adb6-56ab-4b9c-91f2-a81d0f5cf180",
+      "timestamp_utc": "2026-08-31T14:02:35.894509+00:00",
+      "model_version": "eta-gradient_boosting-v1",
+      "predicted_eta_minutes": 36.42,
+      "actual_eta_minutes": 37.56,
+      "error": 1.14,
+      "abs_error": 1.14
+    },
+    {
+      "request_id": "6a8df477-0270-44d9-9a2f-c56504a21804",
+      "timestamp_utc": "2026-08-31T14:02:35.956732+00:00",
+      "model_version": "eta-gradient_boosting-v1",
+      "predicted_eta_minutes": 83.42,
+      "actual_eta_minutes": 80.65,
+      "error": -2.77,
+      "abs_error": 2.77
+    },
+    {
+      "request_id": "153b03ec-6596-42bf-bc10-617183aa59a6",
+      "timestamp_utc": "2026-08-31T14:02:36.019262+00:00",
+      "model_version": "eta-gradient_boosting-v1",
+      "predicted_eta_minutes": 63.84,
+      "actual_eta_minutes": 64.06,
+      "error": 0.22,
+      "abs_error": 0.22
+    },
+    {
+      "request_id": "fde64ced-4581-4510-a266-ad42e0cfb795",
+      "timestamp_utc": "2026-08-31T14:02:36.082041+00:00",
+      "model_version": "eta-gradient_boosting-v1",
+      "predicted_eta_minutes": 80.75,
+      "actual_eta_minutes": 83.82,
+      "error": 3.07,
+      "abs_error": 3.07
+    },
+    {
+      "request_id": "9dab9253-af28-4ea2-84c1-31409639cacf",
+      "timestamp_utc": "2026-08-31T14:02:36.144311+00:00",
+      "model_version": "eta-gradient_boosting-v1",
+      "predicted_eta_minutes": 82.86,
+      "actual_eta_minutes": 87.26,
+      "error": 4.4,
+      "abs_error": 4.4
+    },
+    {
+      "request_id": "70d7f77d-83d6-44d0-9472-dd87ab80de02",
+      "timestamp_utc": "2026-08-31T14:02:36.207763+00:00",
+      "model_version": "eta-gradient_boosting-v1",
+      "predicted_eta_minutes": 61.05,
+      "actual_eta_minutes": 60.51,
+      "error": -0.54,
+      "abs_error": 0.54
+    },
+    {
+      "request_id": "274bbde5-720e-4896-b600-a58efaf9e85a",
+      "timestamp_utc": "2026-08-31T14:02:36.270854+00:00",
+      "model_version": "eta-gradient_boosting-v1",
+      "predicted_eta_minutes": 23.87,
+      "actual_eta_minutes": 35.75,
+      "error": 11.88,
+      "abs_error": 11.88
+    },
+    {
+      "request_id": "4ff58f5d-c4dd-4bd9-ac06-a114f06d9561",
+      "timestamp_utc": "2026-08-31T14:02:36.332488+00:00",
+      "model_version": "eta-gradient_boosting-v1",
+      "predicted_eta_minutes": 60.53,
+      "actual_eta_minutes": 61.3,
+      "error": 0.77,
+      "abs_error": 0.77
+    },
+    {
+      "request_id": "511dfd02-71fb-4176-ae71-624cb1baee16",
+      "timestamp_utc": "2026-08-31T14:02:36.395214+00:00",
+      "model_version": "eta-gradient_boosting-v1",
+      "predicted_eta_minutes": 56.31,
+      "actual_eta_minutes": 54.66,
+      "error": -1.65,
+      "abs_error": 1.65
+    },
+    {
+      "request_id": "e8488753-e1e7-4770-b790-8bda758cb57b",
+      "timestamp_utc": "2026-08-31T14:02:36.458660+00:00",
+      "model_version": "eta-gradient_boosting-v1",
+      "predicted_eta_minutes": 62.53,
+      "actual_eta_minutes": 59.94,
+      "error": -2.59,
+      "abs_error": 2.59
+    },
+    {
+      "request_id": "17eae78e-389b-4f0b-8ec8-992e698cd8b8",
+      "timestamp_utc": "2026-08-31T14:02:36.520551+00:00",
+      "model_version": "eta-gradient_boosting-v1",
+      "predicted_eta_minutes": 77.43,
+      "actual_eta_minutes": 81.93,
+      "error": 4.5,
+      "abs_error": 4.5
+    },
+    {
+      "request_id": "b8b6a757-3b01-4804-8620-93dfbf0d77ec",
+      "timestamp_utc": "2026-08-31T14:02:36.582858+00:00",
+      "model_version": "eta-gradient_boosting-v1",
+      "predicted_eta_minutes": 40.33,
+      "actual_eta_minutes": 38.85,
+      "error": -1.48,
+      "abs_error": 1.48
+    },
+    {
+      "request_id": "467b3d1c-df45-4c8e-9b22-45966e00ea40",
+      "timestamp_utc": "2026-08-31T14:02:36.644632+00:00",
+      "model_version": "eta-gradient_boosting-v1",
+      "predicted_eta_minutes": 43.97,
+      "actual_eta_minutes": 43.17,
+      "error": -0.8,
+      "abs_error": 0.8
+    },
+    {
+      "request_id": "b51caca2-1c28-47da-a9eb-a6d9815900c0",
+      "timestamp_utc": "2026-08-31T14:02:36.706592+00:00",
+      "model_version": "eta-gradient_boosting-v1",
+      "predicted_eta_minutes": 67.49,
+      "actual_eta_minutes": 65.0,
+      "error": -2.49,
+      "abs_error": 2.49
+    },
+    {
+      "request_id": "b61092eb-8c99-499a-9e39-696c3b9ab03e",
+      "timestamp_utc": "2026-08-31T14:02:36.769370+00:00",
+      "model_version": "eta-gradient_boosting-v1",
+      "predicted_eta_minutes": 31.13,
+      "actual_eta_minutes": 40.21,
+      "error": 9.08,
+      "abs_error": 9.08
+    },
+    {
+      "request_id": "5c0b24bf-d21b-43b5-9a45-a3c4fea7eaef",
+      "timestamp_utc": "2026-08-31T14:02:36.829992+00:00",
+      "model_version": "eta-gradient_boosting-v1",
+      "predicted_eta_minutes": 27.89,
+      "actual_eta_minutes": 23.45,
+      "error": -4.44,
+      "abs_error": 4.44
+    },
+    {
+      "request_id": "a59d8ce1-f195-4fc4-b4f5-d223a1a21a9c",
+      "timestamp_utc": "2026-08-31T14:02:36.891716+00:00",
+      "model_version": "eta-gradient_boosting-v1",
+      "predicted_eta_minutes": 45.32,
+      "actual_eta_minutes": 45.88,
+      "error": 0.56,
+      "abs_error": 0.56
+    },
+    {
+      "request_id": "db6cdc4d-3d83-4810-acc2-1da0c50a3b26",
+      "timestamp_utc": "2026-08-31T14:02:36.952938+00:00",
+      "model_version": "eta-gradient_boosting-v1",
+      "predicted_eta_minutes": 67.23,
+      "actual_eta_minutes": 69.37,
+      "error": 2.14,
+      "abs_error": 2.14
+    },
+    {
+      "request_id": "2a77b21d-a73f-4647-ac27-a1cd2f6e3f0b",
+      "timestamp_utc": "2026-08-31T14:02:37.015106+00:00",
+      "model_version": "eta-gradient_boosting-v1",
+      "predicted_eta_minutes": 22.5,
+      "actual_eta_minutes": 15.87,
+      "error": -6.63,
+      "abs_error": 6.63
+    },
+    {
+      "request_id": "45ebf2e2-7cbe-4b95-b9f8-4a3b4f9e7c85",
+      "timestamp_utc": "2026-08-31T14:02:37.078085+00:00",
+      "model_version": "eta-gradient_boosting-v1",
+      "predicted_eta_minutes": 51.38,
+      "actual_eta_minutes": 49.58,
+      "error": -1.8,
+      "abs_error": 1.8
+    },
+    {
+      "request_id": "b6654384-6b53-4d31-a296-191aa29861fb",
+      "timestamp_utc": "2026-08-31T14:02:37.139939+00:00",
+      "model_version": "eta-gradient_boosting-v1",
+      "predicted_eta_minutes": 55.05,
+      "actual_eta_minutes": 53.25,
+      "error": -1.8,
+      "abs_error": 1.8
+    },
+    {
+      "request_id": "85b35dc1-8da4-4bc6-b7c4-2d43487cb66c",
+      "timestamp_utc": "2026-08-31T14:02:37.203435+00:00",
+      "model_version": "eta-gradient_boosting-v1",
+      "predicted_eta_minutes": 61.39,
+      "actual_eta_minutes": 62.59,
+      "error": 1.2,
+      "abs_error": 1.2
+    },
+    {
+      "request_id": "2286d975-fcb8-4c89-9d37-9b202271b93e",
+      "timestamp_utc": "2026-08-31T14:02:37.264613+00:00",
+      "model_version": "eta-gradient_boosting-v1",
+      "predicted_eta_minutes": 70.51,
+      "actual_eta_minutes": 68.81,
+      "error": -1.7,
+      "abs_error": 1.7
+    },
+    {
+      "request_id": "7498d8ef-18b5-4b0b-9b8c-8796886628b1",
+      "timestamp_utc": "2026-08-31T14:02:37.326411+00:00",
+      "model_version": "eta-gradient_boosting-v1",
+      "predicted_eta_minutes": 24.37,
+      "actual_eta_minutes": 31.25,
+      "error": 6.88,
+      "abs_error": 6.88
+    },
+    {
+      "request_id": "9ce5dda6-9e59-415a-8e7a-85c82f8ed6a4",
+      "timestamp_utc": "2026-08-31T14:02:37.388226+00:00",
+      "model_version": "eta-gradient_boosting-v1",
+      "predicted_eta_minutes": 70.03,
+      "actual_eta_minutes": 66.94,
+      "error": -3.09,
+      "abs_error": 3.09
+    },
+    {
+      "request_id": "256db572-8e2b-499c-be4d-6cb075edc11e",
+      "timestamp_utc": "2026-08-31T14:02:37.449806+00:00",
+      "model_version": "eta-gradient_boosting-v1",
+      "predicted_eta_minutes": 45.61,
+      "actual_eta_minutes": 42.61,
+      "error": -3.0,
+      "abs_error": 3.0
+    },
+    {
+      "request_id": "a1e3113c-c87b-4568-9870-1f1718ce8cb4",
+      "timestamp_utc": "2026-08-31T14:02:37.512341+00:00",
+      "model_version": "eta-gradient_boosting-v1",
+      "predicted_eta_minutes": 71.9,
+      "actual_eta_minutes": 68.96,
+      "error": -2.94,
+      "abs_error": 2.94
+    },
+    {
+      "request_id": "072987f4-48f1-471f-8d65-c58d93f2d842",
+      "timestamp_utc": "2026-08-31T14:02:37.574636+00:00",
+      "model_version": "eta-gradient_boosting-v1",
+      "predicted_eta_minutes": 63.55,
+      "actual_eta_minutes": 61.51,
+      "error": -2.04,
+      "abs_error": 2.04
+    },
+    {
+      "request_id": "38f52053-ff52-4bd9-8529-44d9f7b52cf6",
+      "timestamp_utc": "2026-08-31T14:02:37.637394+00:00",
+      "model_version": "eta-gradient_boosting-v1",
+      "predicted_eta_minutes": 29.81,
+      "actual_eta_minutes": 26.69,
+      "error": -3.12,
+      "abs_error": 3.12
+    },
+    {
+      "request_id": "a3b5a7df-4b75-43c3-8000-cdf7632a3bc5",
+      "timestamp_utc": "2026-08-31T14:02:37.699845+00:00",
+      "model_version": "eta-gradient_boosting-v1",
+      "predicted_eta_minutes": 60.5,
+      "actual_eta_minutes": 60.06,
+      "error": -0.44,
+      "abs_error": 0.44
+    },
+    {
+      "request_id": "727eaef5-1102-4232-963a-ad9a03a31468",
+      "timestamp_utc": "2026-08-31T14:02:37.762045+00:00",
+      "model_version": "eta-gradient_boosting-v1",
+      "predicted_eta_minutes": 45.43,
+      "actual_eta_minutes": 43.02,
+      "error": -2.41,
+      "abs_error": 2.41
+    },
+    {
+      "request_id": "3743fb43-af7f-4a04-9480-93271a782c7b",
+      "timestamp_utc": "2026-08-31T14:02:37.823932+00:00",
+      "model_version": "eta-gradient_boosting-v1",
+      "predicted_eta_minutes": 50.43,
+      "actual_eta_minutes": 53.92,
+      "error": 3.49,
+      "abs_error": 3.49
+    },
+    {
+      "request_id": "fcce96d6-3377-4e12-b29f-b32579dd0fe7",
+      "timestamp_utc": "2026-08-31T14:02:37.886097+00:00",
+      "model_version": "eta-gradient_boosting-v1",
+      "predicted_eta_minutes": 65.68,
+      "actual_eta_minutes": 61.55,
+      "error": -4.13,
+      "abs_error": 4.13
+    },
+    {
+      "request_id": "5ee1daf6-3c9d-41e9-8bc5-549c85b3ba4e",
+      "timestamp_utc": "2026-08-31T14:02:37.953892+00:00",
+      "model_version": "eta-gradient_boosting-v1",
+      "predicted_eta_minutes": 71.1,
+      "actual_eta_minutes": 75.84,
+      "error": 4.74,
+      "abs_error": 4.74
+    },
+    {
+      "request_id": "8bbcb2d2-2193-4528-aa0a-3fbe98b73a68",
+      "timestamp_utc": "2026-08-31T14:02:38.020220+00:00",
+      "model_version": "eta-gradient_boosting-v1",
+      "predicted_eta_minutes": 60.57,
+      "actual_eta_minutes": 63.0,
+      "error": 2.43,
+      "abs_error": 2.43
+    },
+    {
+      "request_id": "84edb9d2-bb3f-42ba-9c95-9d5de4f8c630",
+      "timestamp_utc": "2026-08-31T14:02:38.082113+00:00",
+      "model_version": "eta-gradient_boosting-v1",
+      "predicted_eta_minutes": 27.33,
+      "actual_eta_minutes": 30.37,
+      "error": 3.04,
+      "abs_error": 3.04
+    },
+    {
+      "request_id": "a26c8b2c-ad0f-4bb5-ae06-e23e2c077fff",
+      "timestamp_utc": "2026-08-31T14:02:38.144166+00:00",
+      "model_version": "eta-gradient_boosting-v1",
+      "predicted_eta_minutes": 44.86,
+      "actual_eta_minutes": 39.93,
+      "error": -4.93,
+      "abs_error": 4.93
+    },
+    {
+      "request_id": "0be4fc52-61f2-44db-9687-31f427e1658a",
+      "timestamp_utc": "2026-08-31T14:02:38.206913+00:00",
+      "model_version": "eta-gradient_boosting-v1",
+      "predicted_eta_minutes": 78.49,
+      "actual_eta_minutes": 74.58,
+      "error": -3.91,
+      "abs_error": 3.91
+    },
+    {
+      "request_id": "2daafc71-1b62-4751-874a-4b52a659f595",
+      "timestamp_utc": "2026-08-31T14:02:38.269708+00:00",
+      "model_version": "eta-gradient_boosting-v1",
+      "predicted_eta_minutes": 23.01,
+      "actual_eta_minutes": 12.52,
+      "error": -10.49,
+      "abs_error": 10.49
+    },
+    {
+      "request_id": "316b3616-52ee-4ecc-88c2-57331b736758",
+      "timestamp_utc": "2026-08-31T14:02:38.332169+00:00",
+      "model_version": "eta-gradient_boosting-v1",
+      "predicted_eta_minutes": 31.98,
+      "actual_eta_minutes": 34.82,
+      "error": 2.84,
+      "abs_error": 2.84
+    },
+    {
+      "request_id": "34f748b2-fc4d-4d1f-bc65-7bd2150b94ce",
+      "timestamp_utc": "2026-08-31T14:02:38.393521+00:00",
+      "model_version": "eta-gradient_boosting-v1",
+      "predicted_eta_minutes": 37.91,
+      "actual_eta_minutes": 34.47,
+      "error": -3.44,
+      "abs_error": 3.44
+    },
+    {
+      "request_id": "5d3b3c40-a960-4112-ac1e-fbb73088cca2",
+      "timestamp_utc": "2026-08-31T14:02:38.454902+00:00",
+      "model_version": "eta-gradient_boosting-v1",
+      "predicted_eta_minutes": 45.34,
+      "actual_eta_minutes": 49.73,
+      "error": 4.39,
+      "abs_error": 4.39
+    },
+    {
+      "request_id": "baabd526-d46a-4fb6-a8e7-69bcdb6180ec",
+      "timestamp_utc": "2026-08-31T14:02:38.516348+00:00",
+      "model_version": "eta-gradient_boosting-v1",
+      "predicted_eta_minutes": 75.06,
+      "actual_eta_minutes": 77.4,
+      "error": 2.34,
+      "abs_error": 2.34
+    },
+    {
+      "request_id": "472ef465-d0b3-4cf4-a73c-15bcf65c602e",
+      "timestamp_utc": "2026-08-31T14:02:38.578682+00:00",
+      "model_version": "eta-gradient_boosting-v1",
+      "predicted_eta_minutes": 31.63,
+      "actual_eta_minutes": 26.99,
+      "error": -4.64,
+      "abs_error": 4.64
+    },
+    {
+      "request_id": "9b3da454-8a2d-4ebc-b35d-3b59ab2a3ddb",
+      "timestamp_utc": "2026-08-31T14:02:38.642518+00:00",
+      "model_version": "eta-gradient_boosting-v1",
+      "predicted_eta_minutes": 39.09,
+      "actual_eta_minutes": 39.57,
+      "error": 0.48,
+      "abs_error": 0.48
+    },
+    {
+      "request_id": "7bd9c64f-3a38-492f-a3d9-a8e3a79ecc37",
+      "timestamp_utc": "2026-08-31T14:02:38.705535+00:00",
+      "model_version": "eta-gradient_boosting-v1",
+      "predicted_eta_minutes": 66.59,
+      "actual_eta_minutes": 69.29,
+      "error": 2.7,
+      "abs_error": 2.7
+    },
+    {
+      "request_id": "c7f8b10e-4fa4-4a11-ac15-0c9c14755251",
+      "timestamp_utc": "2026-08-31T14:02:38.769003+00:00",
+      "model_version": "eta-gradient_boosting-v1",
+      "predicted_eta_minutes": 24.54,
+      "actual_eta_minutes": 25.8,
+      "error": 1.26,
+      "abs_error": 1.26
+    },
+    {
+      "request_id": "6398f382-fa3a-48ac-9688-96208c7d739c",
+      "timestamp_utc": "2026-08-31T14:02:38.831218+00:00",
+      "model_version": "eta-gradient_boosting-v1",
+      "predicted_eta_minutes": 17.86,
+      "actual_eta_minutes": 11.04,
+      "error": -6.82,
+      "abs_error": 6.82
+    },
+    {
+      "request_id": "c062dbdd-8631-467d-b25b-be8b8f008224",
+      "timestamp_utc": "2026-08-31T14:02:38.893770+00:00",
+      "model_version": "eta-gradient_boosting-v1",
+      "predicted_eta_minutes": 49.4,
+      "actual_eta_minutes": 50.76,
+      "error": 1.36,
+      "abs_error": 1.36
+    },
+    {
+      "request_id": "9f822e96-df48-4d25-81aa-513a5ad841b9",
+      "timestamp_utc": "2026-08-31T14:02:38.956698+00:00",
+      "model_version": "eta-gradient_boosting-v1",
+      "predicted_eta_minutes": 47.91,
+      "actual_eta_minutes": 45.79,
+      "error": -2.12,
+      "abs_error": 2.12
+    },
+    {
+      "request_id": "8562a4c9-a46a-40d2-a402-2f13d2fd2df1",
+      "timestamp_utc": "2026-08-31T14:02:39.021559+00:00",
+      "model_version": "eta-gradient_boosting-v1",
+      "predicted_eta_minutes": 83.19,
+      "actual_eta_minutes": 90.0,
+      "error": 6.81,
+      "abs_error": 6.81
+    },
+    {
+      "request_id": "a2aa376c-ea06-4041-aad5-1542400527f9",
+      "timestamp_utc": "2026-08-31T14:02:39.084423+00:00",
+      "model_version": "eta-gradient_boosting-v1",
+      "predicted_eta_minutes": 30.83,
+      "actual_eta_minutes": 29.52,
+      "error": -1.31,
+      "abs_error": 1.31
+    },
+    {
+      "request_id": "9c288a34-7078-49cf-8d0e-27795344f146",
+      "timestamp_utc": "2026-08-31T14:02:39.146204+00:00",
+      "model_version": "eta-gradient_boosting-v1",
+      "predicted_eta_minutes": 54.02,
+      "actual_eta_minutes": 50.85,
+      "error": -3.17,
+      "abs_error": 3.17
+    },
+    {
+      "request_id": "35bab4cc-6fec-4f8c-9c89-5a58998a4b52",
+      "timestamp_utc": "2026-08-31T14:02:39.207393+00:00",
+      "model_version": "eta-gradient_boosting-v1",
+      "predicted_eta_minutes": 25.41,
+      "actual_eta_minutes": 21.76,
+      "error": -3.65,
+      "abs_error": 3.65
+    },
+    {
+      "request_id": "f0b62ebe-251c-456d-b19a-9bf8f90d7c65",
+      "timestamp_utc": "2026-08-31T14:02:39.269042+00:00",
+      "model_version": "eta-gradient_boosting-v1",
+      "predicted_eta_minutes": 27.33,
+      "actual_eta_minutes": 25.01,
+      "error": -2.32,
+      "abs_error": 2.32
+    },
+    {
+      "request_id": "f6c55a91-6f94-4119-82ce-10b6c1cd3cc8",
+      "timestamp_utc": "2026-08-31T14:02:39.331270+00:00",
+      "model_version": "eta-gradient_boosting-v1",
+      "predicted_eta_minutes": 55.54,
+      "actual_eta_minutes": 56.71,
+      "error": 1.17,
+      "abs_error": 1.17
+    },
+    {
+      "request_id": "643fd9f7-8df1-4b04-aaaf-86f61bfe3132",
+      "timestamp_utc": "2026-08-31T14:02:39.394022+00:00",
+      "model_version": "eta-gradient_boosting-v1",
+      "predicted_eta_minutes": 64.94,
+      "actual_eta_minutes": 63.28,
+      "error": -1.66,
+      "abs_error": 1.66
+    },
+    {
+      "request_id": "74c658e0-e219-4b41-81c3-e4493bb8e5b2",
+      "timestamp_utc": "2026-08-31T14:02:39.456296+00:00",
+      "model_version": "eta-gradient_boosting-v1",
+      "predicted_eta_minutes": 51.13,
+      "actual_eta_minutes": 51.55,
+      "error": 0.42,
+      "abs_error": 0.42
+    },
+    {
+      "request_id": "1501892d-a74c-40b6-b16d-837eb8984423",
+      "timestamp_utc": "2026-08-31T14:02:39.518705+00:00",
+      "model_version": "eta-gradient_boosting-v1",
+      "predicted_eta_minutes": 41.11,
+      "actual_eta_minutes": 37.65,
+      "error": -3.46,
+      "abs_error": 3.46
+    },
+    {
+      "request_id": "7f754244-d03a-4c7d-a083-e6cf433024a6",
+      "timestamp_utc": "2026-08-31T14:02:39.580106+00:00",
+      "model_version": "eta-gradient_boosting-v1",
+      "predicted_eta_minutes": 25.55,
+      "actual_eta_minutes": 23.86,
+      "error": -1.69,
+      "abs_error": 1.69
+    },
+    {
+      "request_id": "e0f09d7f-4605-4c68-bb96-1e4df606a505",
+      "timestamp_utc": "2026-08-31T14:02:39.644267+00:00",
+      "model_version": "eta-gradient_boosting-v1",
+      "predicted_eta_minutes": 32.95,
+      "actual_eta_minutes": 33.25,
+      "error": 0.3,
+      "abs_error": 0.3
+    },
+    {
+      "request_id": "87919f5f-de35-4380-ac9a-404fdd3e4978",
+      "timestamp_utc": "2026-08-31T14:02:39.705740+00:00",
+      "model_version": "eta-gradient_boosting-v1",
+      "predicted_eta_minutes": 47.61,
+      "actual_eta_minutes": 52.76,
+      "error": 5.15,
+      "abs_error": 5.15
+    },
+    {
+      "request_id": "f4446642-b627-4d65-900f-e992aed6a231",
+      "timestamp_utc": "2026-08-31T14:02:39.768653+00:00",
+      "model_version": "eta-gradient_boosting-v1",
+      "predicted_eta_minutes": 45.12,
+      "actual_eta_minutes": 46.37,
+      "error": 1.25,
+      "abs_error": 1.25
+    },
+    {
+      "request_id": "29b98b81-14b9-4db1-a280-323c10a7c440",
+      "timestamp_utc": "2026-08-31T14:02:39.832416+00:00",
+      "model_version": "eta-gradient_boosting-v1",
+      "predicted_eta_minutes": 26.22,
+      "actual_eta_minutes": 24.33,
+      "error": -1.89,
+      "abs_error": 1.89
+    },
+    {
+      "request_id": "ca0c1f20-c294-41e3-ac14-f41c2eb76b95",
+      "timestamp_utc": "2026-08-31T14:02:39.893855+00:00",
+      "model_version": "eta-gradient_boosting-v1",
+      "predicted_eta_minutes": 19.83,
+      "actual_eta_minutes": 18.54,
+      "error": -1.29,
+      "abs_error": 1.29
+    },
+    {
+      "request_id": "32305867-a3fb-4f16-99a9-59d363289126",
+      "timestamp_utc": "2026-08-31T14:02:39.957829+00:00",
+      "model_version": "eta-gradient_boosting-v1",
+      "predicted_eta_minutes": 65.24,
+      "actual_eta_minutes": 66.5,
+      "error": 1.26,
+      "abs_error": 1.26
+    },
+    {
+      "request_id": "0c22f51b-face-43fd-8328-33160b955298",
+      "timestamp_utc": "2026-08-31T14:02:40.019768+00:00",
+      "model_version": "eta-gradient_boosting-v1",
+      "predicted_eta_minutes": 15.26,
+      "actual_eta_minutes": 6.98,
+      "error": -8.28,
+      "abs_error": 8.28
+    },
+    {
+      "request_id": "abc6723a-3494-4762-95f9-3c3d0de9cd3b",
+      "timestamp_utc": "2026-08-31T14:02:40.083105+00:00",
+      "model_version": "eta-gradient_boosting-v1",
+      "predicted_eta_minutes": 57.46,
+      "actual_eta_minutes": 61.72,
+      "error": 4.26,
+      "abs_error": 4.26
+    },
+    {
+      "request_id": "5f474b62-9f14-4737-a398-f25f68a5a729",
+      "timestamp_utc": "2026-08-31T14:02:40.145624+00:00",
+      "model_version": "eta-gradient_boosting-v1",
+      "predicted_eta_minutes": 40.84,
+      "actual_eta_minutes": 36.65,
+      "error": -4.19,
+      "abs_error": 4.19
+    },
+    {
+      "request_id": "25ba32e5-658e-4128-8cd6-f7734d6638eb",
+      "timestamp_utc": "2026-08-31T14:02:40.207730+00:00",
+      "model_version": "eta-gradient_boosting-v1",
+      "predicted_eta_minutes": 43.58,
+      "actual_eta_minutes": 49.81,
+      "error": 6.23,
+      "abs_error": 6.23
+    },
+    {
+      "request_id": "a9d2e345-42f9-4dcc-b7ae-bdd0cf653523",
+      "timestamp_utc": "2026-08-31T14:02:40.270570+00:00",
+      "model_version": "eta-gradient_boosting-v1",
+      "predicted_eta_minutes": 39.69,
+      "actual_eta_minutes": 32.58,
+      "error": -7.11,
+      "abs_error": 7.11
+    },
+    {
+      "request_id": "84fbd677-0d5a-4c92-9d57-3a61ce0d0258",
+      "timestamp_utc": "2026-08-31T14:02:40.331792+00:00",
+      "model_version": "eta-gradient_boosting-v1",
+      "predicted_eta_minutes": 58.12,
+      "actual_eta_minutes": 59.65,
+      "error": 1.53,
+      "abs_error": 1.53
+    },
+    {
+      "request_id": "67f9eb5b-f476-4186-82de-c70bbd9c902a",
+      "timestamp_utc": "2026-08-31T14:02:40.393316+00:00",
+      "model_version": "eta-gradient_boosting-v1",
+      "predicted_eta_minutes": 41.28,
+      "actual_eta_minutes": 36.12,
+      "error": -5.16,
+      "abs_error": 5.16
+    },
+    {
+      "request_id": "53d2e051-f184-4ddc-8bff-f976a346de81",
+      "timestamp_utc": "2026-08-31T14:02:40.454844+00:00",
+      "model_version": "eta-gradient_boosting-v1",
+      "predicted_eta_minutes": 31.94,
+      "actual_eta_minutes": 30.4,
+      "error": -1.54,
+      "abs_error": 1.54
+    },
+    {
+      "request_id": "fb39c2a8-3edf-480f-95ce-5371e823b5d5",
+      "timestamp_utc": "2026-08-31T14:02:40.517058+00:00",
+      "model_version": "eta-gradient_boosting-v1",
+      "predicted_eta_minutes": 39.52,
+      "actual_eta_minutes": 36.92,
+      "error": -2.6,
+      "abs_error": 2.6
+    },
+    {
+      "request_id": "72ff14a4-83fd-46c4-a957-7c4ea110daaa",
+      "timestamp_utc": "2026-08-31T14:02:40.580068+00:00",
+      "model_version": "eta-gradient_boosting-v1",
+      "predicted_eta_minutes": 74.25,
+      "actual_eta_minutes": 78.29,
+      "error": 4.04,
+      "abs_error": 4.04
+    },
+    {
+      "request_id": "1dff6f1c-1edc-47f1-93ec-146adc1ad006",
+      "timestamp_utc": "2026-08-31T14:02:40.642445+00:00",
+      "model_version": "eta-gradient_boosting-v1",
+      "predicted_eta_minutes": 44.2,
+      "actual_eta_minutes": 55.51,
+      "error": 11.31,
+      "abs_error": 11.31
+    },
+    {
+      "request_id": "f69b7eaa-6f67-47b7-a5c1-5b999430a1cb",
+      "timestamp_utc": "2026-08-31T14:02:40.703274+00:00",
+      "model_version": "eta-gradient_boosting-v1",
+      "predicted_eta_minutes": 76.53,
+      "actual_eta_minutes": 78.24,
+      "error": 1.71,
+      "abs_error": 1.71
+    },
+    {
+      "request_id": "12c658ed-6409-4efc-9322-555520cde904",
+      "timestamp_utc": "2026-08-31T14:02:40.766419+00:00",
+      "model_version": "eta-gradient_boosting-v1",
+      "predicted_eta_minutes": 67.14,
+      "actual_eta_minutes": 67.02,
+      "error": -0.12,
+      "abs_error": 0.12
+    },
+    {
+      "request_id": "3e2040ae-ada9-4e8c-96f6-107801ca219e",
+      "timestamp_utc": "2026-08-31T14:02:40.828058+00:00",
+      "model_version": "eta-gradient_boosting-v1",
+      "predicted_eta_minutes": 25.99,
+      "actual_eta_minutes": 26.11,
+      "error": 0.12,
+      "abs_error": 0.12
+    },
+    {
+      "request_id": "02ccac02-439a-4108-8480-c5d9ab1f3a35",
+      "timestamp_utc": "2026-08-31T14:02:40.889519+00:00",
+      "model_version": "eta-gradient_boosting-v1",
+      "predicted_eta_minutes": 71.53,
+      "actual_eta_minutes": 77.54,
+      "error": 6.01,
+      "abs_error": 6.01
+    },
+    {
+      "request_id": "004d5e28-e912-4cbb-99eb-e51bb0714ee6",
+      "timestamp_utc": "2026-08-31T14:02:40.950439+00:00",
+      "model_version": "eta-gradient_boosting-v1",
+      "predicted_eta_minutes": 60.69,
+      "actual_eta_minutes": 53.01,
+      "error": -7.68,
+      "abs_error": 7.68
+    },
+    {
+      "request_id": "db6b74c7-c0d3-44f6-ae99-e7fbfc869c20",
+      "timestamp_utc": "2026-08-31T14:02:41.012412+00:00",
+      "model_version": "eta-gradient_boosting-v1",
+      "predicted_eta_minutes": 36.77,
+      "actual_eta_minutes": 30.91,
+      "error": -5.86,
+      "abs_error": 5.86
+    },
+    {
+      "request_id": "43ce6220-a055-480f-8b84-029257471a81",
+      "timestamp_utc": "2026-08-31T14:02:41.075558+00:00",
+      "model_version": "eta-gradient_boosting-v1",
+      "predicted_eta_minutes": 63.9,
+      "actual_eta_minutes": 64.79,
+      "error": 0.89,
+      "abs_error": 0.89
+    },
+    {
+      "request_id": "6e58c6ff-0976-4a71-993d-2372fa41e137",
+      "timestamp_utc": "2026-08-31T14:02:41.137870+00:00",
+      "model_version": "eta-gradient_boosting-v1",
+      "predicted_eta_minutes": 58.71,
+      "actual_eta_minutes": 59.92,
+      "error": 1.21,
+      "abs_error": 1.21
+    },
+    {
+      "request_id": "6eb1a63f-10da-421d-b11f-ea6225961abc",
+      "timestamp_utc": "2026-08-31T14:02:41.200426+00:00",
+      "model_version": "eta-gradient_boosting-v1",
+      "predicted_eta_minutes": 70.58,
+      "actual_eta_minutes": 74.07,
+      "error": 3.49,
+      "abs_error": 3.49
+    },
+    {
+      "request_id": "24a8f2ff-a602-4d32-94ec-ad3fbf9654f5",
+      "timestamp_utc": "2026-08-31T14:02:41.262942+00:00",
+      "model_version": "eta-gradient_boosting-v1",
+      "predicted_eta_minutes": 59.57,
+      "actual_eta_minutes": 63.42,
+      "error": 3.85,
+      "abs_error": 3.85
+    },
+    {
+      "request_id": "1d1502fd-02b4-468d-a584-aba8fcd19479",
+      "timestamp_utc": "2026-08-31T14:02:41.325067+00:00",
+      "model_version": "eta-gradient_boosting-v1",
+      "predicted_eta_minutes": 24.23,
+      "actual_eta_minutes": 26.37,
+      "error": 2.14,
+      "abs_error": 2.14
+    },
+    {
+      "request_id": "09994294-67f4-4dc6-bf83-5e76ae0374f5",
+      "timestamp_utc": "2026-08-31T14:02:41.387858+00:00",
+      "model_version": "eta-gradient_boosting-v1",
+      "predicted_eta_minutes": 55.87,
+      "actual_eta_minutes": 56.06,
+      "error": 0.19,
+      "abs_error": 0.19
+    },
+    {
+      "request_id": "6be139d7-2a08-4278-b7f8-d3a24d6f2341",
+      "timestamp_utc": "2026-08-31T14:02:41.449090+00:00",
+      "model_version": "eta-gradient_boosting-v1",
+      "predicted_eta_minutes": 65.98,
+      "actual_eta_minutes": 69.15,
+      "error": 3.17,
+      "abs_error": 3.17
+    },
+    {
+      "request_id": "7ade99a5-f98b-4b1d-ad6a-5dcf965e7577",
+      "timestamp_utc": "2026-08-31T14:02:41.510252+00:00",
+      "model_version": "eta-gradient_boosting-v1",
+      "predicted_eta_minutes": 42.02,
+      "actual_eta_minutes": 37.6,
+      "error": -4.42,
+      "abs_error": 4.42
+    },
+    {
+      "request_id": "bd414b81-a8d1-400a-b980-72ca6260d735",
+      "timestamp_utc": "2026-08-31T14:02:41.573758+00:00",
+      "model_version": "eta-gradient_boosting-v1",
+      "predicted_eta_minutes": 39.32,
+      "actual_eta_minutes": 37.07,
+      "error": -2.25,
+      "abs_error": 2.25
+    },
+    {
+      "request_id": "d2087c65-8f28-4282-a52d-f95f12c3477d",
+      "timestamp_utc": "2026-08-31T14:02:41.636128+00:00",
+      "model_version": "eta-gradient_boosting-v1",
+      "predicted_eta_minutes": 54.43,
+      "actual_eta_minutes": 57.24,
+      "error": 2.81,
+      "abs_error": 2.81
+    },
+    {
+      "request_id": "d8bcaac3-af76-4d24-b7fe-508b92776004",
+      "timestamp_utc": "2026-08-31T14:02:41.697416+00:00",
+      "model_version": "eta-gradient_boosting-v1",
+      "predicted_eta_minutes": 54.06,
+      "actual_eta_minutes": 58.39,
+      "error": 4.33,
+      "abs_error": 4.33
+    },
+    {
+      "request_id": "dcfdd8ab-8a3f-44cd-880d-271649bbe427",
+      "timestamp_utc": "2026-08-31T14:02:41.760983+00:00",
+      "model_version": "eta-gradient_boosting-v1",
+      "predicted_eta_minutes": 32.27,
+      "actual_eta_minutes": 35.98,
+      "error": 3.71,
+      "abs_error": 3.71
+    },
+    {
+      "request_id": "b2734e3d-ed01-424c-a524-853f377d4a08",
+      "timestamp_utc": "2026-08-31T14:02:41.824132+00:00",
+      "model_version": "eta-gradient_boosting-v1",
+      "predicted_eta_minutes": 49.28,
+      "actual_eta_minutes": 50.71,
+      "error": 1.43,
+      "abs_error": 1.43
+    },
+    {
+      "request_id": "e10d6776-8b9c-471f-ba17-be13fae04942",
+      "timestamp_utc": "2026-08-31T14:02:41.888499+00:00",
+      "model_version": "eta-gradient_boosting-v1",
+      "predicted_eta_minutes": 79.39,
+      "actual_eta_minutes": 87.34,
+      "error": 7.95,
+      "abs_error": 7.95
+    },
+    {
+      "request_id": "e5978667-acff-4804-acdb-99f7a878313a",
+      "timestamp_utc": "2026-08-31T14:02:41.953913+00:00",
+      "model_version": "eta-gradient_boosting-v1",
+      "predicted_eta_minutes": 47.89,
+      "actual_eta_minutes": 51.55,
+      "error": 3.66,
+      "abs_error": 3.66
+    },
+    {
+      "request_id": "537318b2-c960-4c2a-8abd-e3f43ca54d1a",
+      "timestamp_utc": "2026-08-31T14:02:42.015407+00:00",
+      "model_version": "eta-gradient_boosting-v1",
+      "predicted_eta_minutes": 64.17,
+      "actual_eta_minutes": 66.72,
+      "error": 2.55,
+      "abs_error": 2.55
+    },
+    {
+      "request_id": "b89c338d-c8b9-4c0c-b0a1-24851574f900",
+      "timestamp_utc": "2026-08-31T14:02:42.079136+00:00",
+      "model_version": "eta-gradient_boosting-v1",
+      "predicted_eta_minutes": 21.9,
+      "actual_eta_minutes": 31.51,
+      "error": 9.61,
+      "abs_error": 9.61
+    },
+    {
+      "request_id": "8fbeb8ee-8877-4795-9bd8-606d7315a45e",
+      "timestamp_utc": "2026-08-31T14:02:42.139789+00:00",
+      "model_version": "eta-gradient_boosting-v1",
+      "predicted_eta_minutes": 44.36,
+      "actual_eta_minutes": 46.4,
+      "error": 2.04,
+      "abs_error": 2.04
+    },
+    {
+      "request_id": "f6523935-76d5-412b-bd54-fef1d3fc0309",
+      "timestamp_utc": "2026-08-31T14:02:42.202339+00:00",
+      "model_version": "eta-gradient_boosting-v1",
+      "predicted_eta_minutes": 62.33,
+      "actual_eta_minutes": 61.44,
+      "error": -0.89,
+      "abs_error": 0.89
+    },
+    {
+      "request_id": "451bb0c3-7b06-4045-adb9-62854198ce2a",
+      "timestamp_utc": "2026-08-31T14:02:42.264692+00:00",
+      "model_version": "eta-gradient_boosting-v1",
+      "predicted_eta_minutes": 39.65,
+      "actual_eta_minutes": 37.79,
+      "error": -1.86,
+      "abs_error": 1.86
+    },
+    {
+      "request_id": "c29cfbe4-2b72-4192-841d-8ecc5d978b4e",
+      "timestamp_utc": "2026-08-31T14:02:42.326078+00:00",
+      "model_version": "eta-gradient_boosting-v1",
+      "predicted_eta_minutes": 62.66,
+      "actual_eta_minutes": 62.38,
+      "error": -0.28,
+      "abs_error": 0.28
+    },
+    {
+      "request_id": "89b9e3be-150f-4d89-8ad7-0ac851895051",
+      "timestamp_utc": "2026-08-31T14:02:42.386991+00:00",
+      "model_version": "eta-gradient_boosting-v1",
+      "predicted_eta_minutes": 72.61,
+      "actual_eta_minutes": 72.14,
+      "error": -0.47,
+      "abs_error": 0.47
+    },
+    {
+      "request_id": "bc17b8cc-1166-43d1-b866-6c3c925a5d72",
+      "timestamp_utc": "2026-08-31T14:02:42.448917+00:00",
+      "model_version": "eta-gradient_boosting-v1",
+      "predicted_eta_minutes": 30.39,
+      "actual_eta_minutes": 25.31,
+      "error": -5.08,
+      "abs_error": 5.08
+    },
+    {
+      "request_id": "7d27100c-1adf-4ef7-8807-bc46218405bc",
+      "timestamp_utc": "2026-08-31T14:02:42.512667+00:00",
+      "model_version": "eta-gradient_boosting-v1",
+      "predicted_eta_minutes": 55.9,
+      "actual_eta_minutes": 56.69,
+      "error": 0.79,
+      "abs_error": 0.79
+    },
+    {
+      "request_id": "49e090a3-3b91-4073-aa5b-c6d1f975cce3",
+      "timestamp_utc": "2026-08-31T14:02:42.576545+00:00",
+      "model_version": "eta-gradient_boosting-v1",
+      "predicted_eta_minutes": 70.91,
+      "actual_eta_minutes": 75.33,
+      "error": 4.42,
+      "abs_error": 4.42
+    },
+    {
+      "request_id": "5ef1e3db-f3a7-4861-a7e1-41e5a82f5b84",
+      "timestamp_utc": "2026-08-31T14:02:42.638532+00:00",
+      "model_version": "eta-gradient_boosting-v1",
+      "predicted_eta_minutes": 58.38,
+      "actual_eta_minutes": 65.84,
+      "error": 7.46,
+      "abs_error": 7.46
+    },
+    {
+      "request_id": "28ad48cc-7afe-4690-b762-d53dbe7a069f",
+      "timestamp_utc": "2026-08-31T14:02:42.701194+00:00",
+      "model_version": "eta-gradient_boosting-v1",
+      "predicted_eta_minutes": 72.66,
+      "actual_eta_minutes": 77.92,
+      "error": 5.26,
+      "abs_error": 5.26
+    },
+    {
+      "request_id": "3ad1556d-f8eb-4195-ae8e-86c60a58fd8a",
+      "timestamp_utc": "2026-08-31T14:02:42.763413+00:00",
+      "model_version": "eta-gradient_boosting-v1",
+      "predicted_eta_minutes": 56.23,
+      "actual_eta_minutes": 66.31,
+      "error": 10.08,
+      "abs_error": 10.08
+    },
+    {
+      "request_id": "1fc74f45-5ef6-4e02-9daf-1b4d267afc0e",
+      "timestamp_utc": "2026-08-31T14:02:42.824265+00:00",
+      "model_version": "eta-gradient_boosting-v1",
+      "predicted_eta_minutes": 55.26,
+      "actual_eta_minutes": 51.75,
+      "error": -3.51,
+      "abs_error": 3.51
+    },
+    {
+      "request_id": "c4b025c5-0dae-47be-ad6b-d1e2286ffdbf",
+      "timestamp_utc": "2026-08-31T14:02:42.885661+00:00",
+      "model_version": "eta-gradient_boosting-v1",
+      "predicted_eta_minutes": 70.28,
+      "actual_eta_minutes": 70.84,
+      "error": 0.56,
+      "abs_error": 0.56
+    },
+    {
+      "request_id": "2e97183d-48d7-4b2f-971f-8aac0876554b",
+      "timestamp_utc": "2026-08-31T14:02:42.948933+00:00",
+      "model_version": "eta-gradient_boosting-v1",
+      "predicted_eta_minutes": 60.93,
+      "actual_eta_minutes": 54.91,
+      "error": -6.02,
+      "abs_error": 6.02
+    },
+    {
+      "request_id": "5099036d-1392-4d73-8349-e018ec221e63",
+      "timestamp_utc": "2026-08-31T14:02:43.010988+00:00",
+      "model_version": "eta-gradient_boosting-v1",
+      "predicted_eta_minutes": 75.11,
+      "actual_eta_minutes": 80.29,
+      "error": 5.18,
+      "abs_error": 5.18
+    },
+    {
+      "request_id": "4000461e-ca92-4161-9ffb-2ddb3d80a257",
+      "timestamp_utc": "2026-08-31T14:02:43.072265+00:00",
+      "model_version": "eta-gradient_boosting-v1",
+      "predicted_eta_minutes": 28.69,
+      "actual_eta_minutes": 29.43,
+      "error": 0.74,
+      "abs_error": 0.74
+    },
+    {
+      "request_id": "d4e2916b-9fe9-49f3-83f8-0f352582e3fc",
+      "timestamp_utc": "2026-08-31T14:02:43.135418+00:00",
+      "model_version": "eta-gradient_boosting-v1",
+      "predicted_eta_minutes": 17.85,
+      "actual_eta_minutes": 13.78,
+      "error": -4.07,
+      "abs_error": 4.07
+    },
+    {
+      "request_id": "b0cf00b0-3237-4b4b-a24a-b286c2ea92ee",
+      "timestamp_utc": "2026-08-31T14:02:43.198924+00:00",
+      "model_version": "eta-gradient_boosting-v1",
+      "predicted_eta_minutes": 45.31,
+      "actual_eta_minutes": 45.46,
+      "error": 0.15,
+      "abs_error": 0.15
+    },
+    {
+      "request_id": "c50fbf04-9d0d-4ac3-9ea9-375c52d0fa4b",
+      "timestamp_utc": "2026-08-31T14:02:43.262935+00:00",
+      "model_version": "eta-gradient_boosting-v1",
+      "predicted_eta_minutes": 38.49,
+      "actual_eta_minutes": 43.08,
+      "error": 4.59,
+      "abs_error": 4.59
+    },
+    {
+      "request_id": "20e8bb2d-55c9-42c1-8edd-2491ad63af0f",
+      "timestamp_utc": "2026-08-31T14:02:43.326995+00:00",
+      "model_version": "eta-gradient_boosting-v1",
+      "predicted_eta_minutes": 38.12,
+      "actual_eta_minutes": 32.8,
+      "error": -5.32,
+      "abs_error": 5.32
+    },
+    {
+      "request_id": "0fbf4e70-67d8-4f5b-9b86-23887e7702d3",
+      "timestamp_utc": "2026-08-31T14:02:43.391040+00:00",
+      "model_version": "eta-gradient_boosting-v1",
+      "predicted_eta_minutes": 22.31,
+      "actual_eta_minutes": 18.82,
+      "error": -3.49,
+      "abs_error": 3.49
+    },
+    {
+      "request_id": "44e080ef-5a12-479a-b255-398c4a6adf52",
+      "timestamp_utc": "2026-08-31T14:02:43.454499+00:00",
+      "model_version": "eta-gradient_boosting-v1",
+      "predicted_eta_minutes": 46.48,
+      "actual_eta_minutes": 49.96,
+      "error": 3.48,
+      "abs_error": 3.48
+    },
+    {
+      "request_id": "132f545d-a7e1-4b4b-924f-cb50eba39a2b",
+      "timestamp_utc": "2026-08-31T14:02:43.518235+00:00",
+      "model_version": "eta-gradient_boosting-v1",
+      "predicted_eta_minutes": 47.28,
+      "actual_eta_minutes": 52.99,
+      "error": 5.71,
+      "abs_error": 5.71
+    },
+    {
+      "request_id": "186401ff-1594-4e57-ace7-71bdbcf7371b",
+      "timestamp_utc": "2026-08-31T14:02:43.582538+00:00",
+      "model_version": "eta-gradient_boosting-v1",
+      "predicted_eta_minutes": 47.18,
+      "actual_eta_minutes": 45.02,
+      "error": -2.16,
+      "abs_error": 2.16
+    },
+    {
+      "request_id": "0e8115f5-a95e-4b10-aa89-cd39283b192f",
+      "timestamp_utc": "2026-08-31T14:02:43.646057+00:00",
+      "model_version": "eta-gradient_boosting-v1",
+      "predicted_eta_minutes": 29.2,
+      "actual_eta_minutes": 26.59,
+      "error": -2.61,
+      "abs_error": 2.61
+    },
+    {
+      "request_id": "2259eb90-fd18-495e-aeac-0d5a4112a1bd",
+      "timestamp_utc": "2026-08-31T14:02:43.707171+00:00",
+      "model_version": "eta-gradient_boosting-v1",
+      "predicted_eta_minutes": 44.15,
+      "actual_eta_minutes": 41.15,
+      "error": -3.0,
+      "abs_error": 3.0
+    },
+    {
+      "request_id": "fd69181d-9bfb-45c6-9e74-31bb2626e9f7",
+      "timestamp_utc": "2026-08-31T14:02:43.770561+00:00",
+      "model_version": "eta-gradient_boosting-v1",
+      "predicted_eta_minutes": 28.3,
+      "actual_eta_minutes": 28.36,
+      "error": 0.06,
+      "abs_error": 0.06
+    },
+    {
+      "request_id": "453042c1-2d8b-440a-82a9-9821287c5de3",
+      "timestamp_utc": "2026-08-31T14:02:43.832081+00:00",
+      "model_version": "eta-gradient_boosting-v1",
+      "predicted_eta_minutes": 41.31,
+      "actual_eta_minutes": 42.17,
+      "error": 0.86,
+      "abs_error": 0.86
+    },
+    {
+      "request_id": "7b69f2a3-dd5e-445a-a03b-f631e5835ff1",
+      "timestamp_utc": "2026-08-31T14:02:43.893508+00:00",
+      "model_version": "eta-gradient_boosting-v1",
+      "predicted_eta_minutes": 59.23,
+      "actual_eta_minutes": 58.0,
+      "error": -1.23,
+      "abs_error": 1.23
+    },
+    {
+      "request_id": "4521de50-9748-4821-af8c-8563cad0fb94",
+      "timestamp_utc": "2026-08-31T14:02:43.956135+00:00",
+      "model_version": "eta-gradient_boosting-v1",
+      "predicted_eta_minutes": 57.49,
+      "actual_eta_minutes": 70.55,
+      "error": 13.06,
+      "abs_error": 13.06
+    },
+    {
+      "request_id": "ced838b8-4fd8-446c-9450-a58721f80e99",
+      "timestamp_utc": "2026-08-31T14:02:44.017348+00:00",
+      "model_version": "eta-gradient_boosting-v1",
+      "predicted_eta_minutes": 59.22,
+      "actual_eta_minutes": 61.16,
+      "error": 1.94,
+      "abs_error": 1.94
+    },
+    {
+      "request_id": "6b2ca8ee-13bc-44b6-9bc3-31358df06f6b",
+      "timestamp_utc": "2026-08-31T14:02:44.080322+00:00",
+      "model_version": "eta-gradient_boosting-v1",
+      "predicted_eta_minutes": 70.29,
+      "actual_eta_minutes": 68.52,
+      "error": -1.77,
+      "abs_error": 1.77
+    },
+    {
+      "request_id": "d6792f44-2b75-460f-901d-e96b102bee0e",
+      "timestamp_utc": "2026-08-31T14:02:44.141643+00:00",
+      "model_version": "eta-gradient_boosting-v1",
+      "predicted_eta_minutes": 24.44,
+      "actual_eta_minutes": 24.59,
+      "error": 0.15,
+      "abs_error": 0.15
+    },
+    {
+      "request_id": "6e7017e4-3459-49f3-a4cc-24f4b0bfbf62",
+      "timestamp_utc": "2026-08-31T14:02:44.204172+00:00",
+      "model_version": "eta-gradient_boosting-v1",
+      "predicted_eta_minutes": 65.61,
+      "actual_eta_minutes": 66.22,
+      "error": 0.61,
+      "abs_error": 0.61
+    },
+    {
+      "request_id": "e44c69cc-fc2d-4d22-97be-0117433b541d",
+      "timestamp_utc": "2026-08-31T14:02:44.266022+00:00",
+      "model_version": "eta-gradient_boosting-v1",
+      "predicted_eta_minutes": 47.25,
+      "actual_eta_minutes": 44.84,
+      "error": -2.41,
+      "abs_error": 2.41
+    },
+    {
+      "request_id": "3c9e5977-e6fe-4f6c-ba17-672eed1333ba",
+      "timestamp_utc": "2026-08-31T14:02:44.327534+00:00",
+      "model_version": "eta-gradient_boosting-v1",
+      "predicted_eta_minutes": 58.47,
+      "actual_eta_minutes": 58.02,
+      "error": -0.45,
+      "abs_error": 0.45
+    },
+    {
+      "request_id": "eda3cb51-2d8f-488b-ba76-1d639e756272",
+      "timestamp_utc": "2026-08-31T14:02:44.388549+00:00",
+      "model_version": "eta-gradient_boosting-v1",
+      "predicted_eta_minutes": 38.23,
+      "actual_eta_minutes": 32.03,
+      "error": -6.2,
+      "abs_error": 6.2
+    },
+    {
+      "request_id": "02bf6eab-4d01-49ba-afa2-afed453c182e",
+      "timestamp_utc": "2026-08-31T14:02:44.452234+00:00",
+      "model_version": "eta-gradient_boosting-v1",
+      "predicted_eta_minutes": 26.99,
+      "actual_eta_minutes": 16.92,
+      "error": -10.07,
+      "abs_error": 10.07
+    },
+    {
+      "request_id": "c18050a9-c1d7-436e-a633-136cff03b809",
+      "timestamp_utc": "2026-08-31T14:02:44.514324+00:00",
+      "model_version": "eta-gradient_boosting-v1",
+      "predicted_eta_minutes": 29.69,
+      "actual_eta_minutes": 30.28,
+      "error": 0.59,
+      "abs_error": 0.59
+    },
+    {
+      "request_id": "f2a42e43-4f9d-413e-a380-fff1d6ef260d",
+      "timestamp_utc": "2026-08-31T14:02:44.576331+00:00",
+      "model_version": "eta-gradient_boosting-v1",
+      "predicted_eta_minutes": 25.95,
+      "actual_eta_minutes": 37.69,
+      "error": 11.74,
+      "abs_error": 11.74
+    },
+    {
+      "request_id": "512c741f-1b5b-4fdf-a0d8-78159a776a67",
+      "timestamp_utc": "2026-08-31T14:02:44.637881+00:00",
+      "model_version": "eta-gradient_boosting-v1",
+      "predicted_eta_minutes": 53.27,
+      "actual_eta_minutes": 47.39,
+      "error": -5.88,
+      "abs_error": 5.88
+    },
+    {
+      "request_id": "549527c5-dffa-43e9-8e8b-1d9dbf21c2c3",
+      "timestamp_utc": "2026-08-31T14:02:44.699746+00:00",
+      "model_version": "eta-gradient_boosting-v1",
+      "predicted_eta_minutes": 43.82,
+      "actual_eta_minutes": 42.66,
+      "error": -1.16,
+      "abs_error": 1.16
+    }
+  ]
+}

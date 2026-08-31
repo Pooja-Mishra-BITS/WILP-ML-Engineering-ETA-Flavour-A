@@ -1,0 +1,118 @@
+{
+  "baseline_size": 600,
+  "live_size": 150,
+  "numeric_drift": [
+    {
+      "feature": "pickup_lat",
+      "baseline_mean": 40.7243,
+      "live_mean": 40.7298,
+      "baseline_std": 0.0722,
+      "live_std": 0.0738,
+      "psi": 0.0345,
+      "mean_shift_z": 0.0764,
+      "drift": false
+    },
+    {
+      "feature": "pickup_lon",
+      "baseline_mean": -73.9278,
+      "live_mean": -73.9364,
+      "baseline_std": 0.0718,
+      "live_std": 0.0749,
+      "psi": 0.0561,
+      "mean_shift_z": 0.1197,
+      "drift": false
+    },
+    {
+      "feature": "dropoff_lat",
+      "baseline_mean": 40.7226,
+      "live_mean": 40.7134,
+      "baseline_std": 0.0737,
+      "live_std": 0.066,
+      "psi": 0.2436,
+      "mean_shift_z": 0.1252,
+      "drift": true
+    },
+    {
+      "feature": "dropoff_lon",
+      "baseline_mean": -73.9222,
+      "live_mean": -73.9368,
+      "baseline_std": 0.0731,
+      "live_std": 0.0714,
+      "psi": 0.1069,
+      "mean_shift_z": 0.1995,
+      "drift": false
+    },
+    {
+      "feature": "trip_distance_km",
+      "baseline_mean": 15.023,
+      "live_mean": 15.302,
+      "baseline_std": 7.9032,
+      "live_std": 8.0775,
+      "psi": 0.0675,
+      "mean_shift_z": 0.0353,
+      "drift": false
+    },
+    {
+      "feature": "hour",
+      "baseline_mean": 11.52,
+      "live_mean": 11.3133,
+      "baseline_std": 6.7924,
+      "live_std": 7.1992,
+      "psi": 0.022,
+      "mean_shift_z": 0.0304,
+      "drift": false
+    },
+    {
+      "feature": "weekday",
+      "baseline_mean": 3.16,
+      "live_mean": 2.8267,
+      "baseline_std": 1.9827,
+      "live_std": 2.0058,
+      "psi": 0.0503,
+      "mean_shift_z": 0.1681,
+      "drift": false
+    }
+  ],
+  "categorical_drift": [
+    {
+      "feature": "weather",
+      "baseline_dist": {
+        "cloudy": 0.263,
+        "snow": 0.265,
+        "clear": 0.248,
+        "rain": 0.223
+      },
+      "live_dist": {
+        "cloudy": 0.267,
+        "snow": 0.093,
+        "clear": 0.48,
+        "rain": 0.16
+      },
+      "total_variation_distance": 0.235,
+      "drift": true
+    },
+    {
+      "feature": "traffic_level",
+      "baseline_dist": {
+        "medium": 0.373,
+        "high": 0.278,
+        "low": 0.348
+      },
+      "live_dist": {
+        "medium": 0.347,
+        "high": 0.287,
+        "low": 0.367
+      },
+      "total_variation_distance": 0.0267,
+      "drift": false
+    }
+  ],
+  "concept_drift": {
+    "metric": "PSI(train target vs live predicted eta) - proxy for concept drift; true concept drift needs labelled live outcomes (logs/feedback.jsonl)",
+    "baseline_target_mean": 51.1786,
+    "live_predicted_mean": 49.4527,
+    "psi": 0.4279,
+    "drift": true,
+    "ground_truth_available": false
+  }
+}
