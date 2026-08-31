@@ -10,7 +10,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import OneHotEncoder, StandardScaler
 from .features import NUMERIC_FEATURES, CATEGORICAL_FEATURES
-from .generate_data import DATASET_VERSION, ROOT, SEED, main as generate_data
+from .generate_data import DATASET_VERSION, ROOT
 from .validate import validate
 
 PARAMS = yaml.safe_load((ROOT/"params.yaml").read_text(encoding="utf-8"))
@@ -21,7 +21,7 @@ def frame(rows):
 def make_preprocessor():
     return ColumnTransformer([("numeric",StandardScaler(),NUMERIC_FEATURES),("categorical",OneHotEncoder(handle_unknown="ignore"),CATEGORICAL_FEATURES)])
 def main():
-    generate_data(); validation=validate(); rows=load_rows()
+    validation=validate(); rows=load_rows()
     train_rows,test_rows=train_test_split(rows,test_size=PARAMS["test_size"],random_state=PARAMS["seed"])
     x_train,x_test=frame(train_rows),frame(test_rows); y_train=[float(r["trip_duration_minutes"]) for r in train_rows]; y_test=[float(r["trip_duration_minutes"]) for r in test_rows]
     train_signatures={tuple(row[key] for key in NUMERIC_FEATURES+CATEGORICAL_FEATURES) for row in train_rows}

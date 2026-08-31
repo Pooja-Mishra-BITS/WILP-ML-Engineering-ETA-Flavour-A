@@ -1,8 +1,0 @@
-{
-  "description": "Optional labelled ETA feedback joined to predictions by request_id.",
-  "fields": {
-    "request_id": "string",
-    "actual_eta_minutes": "positive number",
-    "labelled_at_utc": "ISO-8601 timestamp"
-  }
-}

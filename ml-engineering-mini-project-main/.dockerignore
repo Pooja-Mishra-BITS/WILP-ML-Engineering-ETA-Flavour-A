@@ -1,7 +1,0 @@
-.git
-.venv
-__pycache__
-*.pyc
-logs/*.jsonl
-mlruns
-experiments/artifacts

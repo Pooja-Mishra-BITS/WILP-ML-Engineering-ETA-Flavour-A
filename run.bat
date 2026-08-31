@@ -42,7 +42,8 @@ if errorlevel 1 goto failed
 
 echo Starting API...
 docker rm -f "%APP%" >nul 2>&1
-docker run -d --name "%APP%" --restart unless-stopped -p 8000:8000 "%IMAGE%"
+if not exist "logs" mkdir "logs"
+docker run -d --name "%APP%" --restart unless-stopped -p 8000:8000 -v "%DIR%logs:/app/logs" "%IMAGE%"
 
 echo.
 echo Completed successfully.

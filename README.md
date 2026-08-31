@@ -12,7 +12,7 @@ The dataset is synthetic and is intended only for demonstrating the ML workflow.
 
 ## Dataset
 
-- 603 deterministic records generated using seed `412`
+- 603 records supplied in `data/raw/trips.csv`
 - 600 valid records
 - 3 intentionally invalid records
 - Validation checks schema, GPS coordinates, distance, duration, time, weather, traffic, and timestamps
@@ -20,6 +20,8 @@ The dataset is synthetic and is intended only for demonstrating the ML workflow.
 - Rejected rows: `data/processed/rejected_rows.jsonl`
 - Dataset version: `data/VERSION`
 - Dataset metadata and hashes: `data/manifest.json`
+
+Training uses the existing raw CSV directly. It does not regenerate `data/raw/trips.csv`; validation writes the cleaned rows to `data/processed/trips_clean.csv` and records rejected rows in `data/processed/rejected_rows.jsonl`. The standalone generator remains available as `python -m pipeline.generate_data` when a new synthetic dataset is explicitly needed.
 
 ## Model
 

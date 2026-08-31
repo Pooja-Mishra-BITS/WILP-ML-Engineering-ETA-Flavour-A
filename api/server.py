@@ -36,6 +36,10 @@ class TripResponse(BaseModel):
     model_version: str
     latency_ms: float
     request_id: str
+class FeedbackRequest(BaseModel):
+    request_id: str
+    actual_eta_minutes: float = Field(..., gt=0, le=500)
+    labelled_at_utc: str | None = None
 bundle=joblib.load(MODEL_PATH); model=bundle["model"]; metadata=bundle["metadata"]
 app=FastAPI(title="Delivery ETA Predictor",version=metadata["model_version"])
 @app.exception_handler(RequestValidationError)
@@ -51,5 +55,11 @@ def predict(payload:TripRequest):
     path=ROOT/"logs/predictions.jsonl"; path.parent.mkdir(exist_ok=True)
     with path.open("a",encoding="utf-8") as f: f.write(json.dumps(entry)+"\n")
     return TripResponse(predicted_eta_minutes=round(prediction,2),model_version=metadata["model_version"],latency_ms=latency,request_id=request_id)
+@app.post("/feedback")
+def feedback(payload:FeedbackRequest):
+    entry={"request_id":payload.request_id,"actual_eta_minutes":payload.actual_eta_minutes,"labelled_at_utc":payload.labelled_at_utc or datetime.now(timezone.utc).isoformat()}
+    path=ROOT/"logs/feedback.jsonl"; path.parent.mkdir(exist_ok=True)
+    with path.open("a",encoding="utf-8") as f: f.write(json.dumps(entry)+"\n")
+    return {"status":"recorded",**entry}
 if __name__=="__main__":
     import uvicorn; uvicorn.run("api.server:app",host="0.0.0.0",port=int(os.environ.get("PORT","8000")))
