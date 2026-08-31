@@ -83,24 +83,14 @@ README.md
 
 Tested against Python 3.11/3.12. Key pinned dependencies (requirements.txt):
 ```text
-Package
-Version
-fastapi
-0.115.6
-uvicorn[standard]
-0.34.0
-scikit-learn
-1.6.1
-mlflow
-2.20.2
-joblib
-1.4.2
-PyYAML
-6.0.2
-httpx
-0.28.1
-pandas
-2.2.3
+fastapi             0.115.6
+uvicorn[standard]   0.34.0
+scikit-learn        1.6.1
+mlflow              2.20.2
+joblib              1.4.2
+PyYAML              6.0.2
+httpx               0.28.1
+pandas              2.2.3
 ```
 Running the project via the provided scripts also requires Docker Desktop (the scripts are Windows .bat files that call docker build /docker run).
 
